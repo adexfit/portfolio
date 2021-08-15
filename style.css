@@ -37,7 +37,7 @@ body[data-aos-duration='4000'] [data-aos],
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background:linear-gradient(180deg, #0E5E58 0%, #062E2B 100%);
+    background-color:#000000;
     background-position: center center;
     width: 100%;
     height: 100vh;
