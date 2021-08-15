@@ -218,7 +218,7 @@ padding-right: 10%;
     border-bottom: 1px solid #c4c4c4;
 }
 
-.artdivider + p, ol{
+.artdivider + p, ol,ul{
     line-height: 1.8;
     color: #2b2b2c;
     
