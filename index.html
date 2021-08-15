@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <title>AdexMedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body id="myBody">
+    <header id="myHeader">  
+        <div class="flexContainer">
+            <div class="brand sideSpace"><a href="index.html"><img src="img/adexlogo.png" alt="Company Logo"></a></div>      
+            
+           
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle"/>
+         
+
+            <nav id="navbar">
+                <a href="index.html" class="nav-link">HOME</a>
+                <!-- <a href="#" class="nav-link">ABOUT</a> -->
+                <!-- <a href="#" class="nav-link">PROJECTS</a> -->
+                    <div class="dropdown">
+                        <button class="dropbtn">PROJECTS</button>
+                        <div class="dropdown-content" id="darkbg">
+                        <a href="projectOne.html" >Project One</a>
+                        <a href="projectTwo.html" >Project Two</a>
+                        <a href="projectThree.html">Project Three</a>
+                        </div>
+                    </div> 
+                <a href="#contacts" class="nav-link">CONTACT</a>
+                <a href='document/CV.pdf' class='nav-link'>CV</a>
+            </nav>                    
+        </div>
+
+        <section id="welcome-section">
+            <h1>Hi, I'm Adeboye Elisha</h1>
+            <p>- UI/UX Designer in Nigeria</p>
+            <button onclick="window.location.href='#contacts';" type="button">Contact me</button>
+        </section>
+        
+    </header>
+    
+    <section class="greenshaded" >
+        <h2 data-aos="slide-up" data-aos-duration="4000" data-aos-once="true">My Skills</h2>
+        <span class="divider" data-aos="slide-up" data-aos-duration="4000" data-aos-once="true"></span>
+        <section class="mySkills4" data-aos="slide-up" data-aos-duration="4000" data-aos-once="true">         
+            <img src="img/figma.png"  alt="figma" >
+            <img src="img/photoshop.png"  alt="photoshop1" >
+            <img src="img/illustrator.png"  alt="Illustrator" > 
+            <img src="img/indesign.png"  alt="Indesign" >  
+        </section><br><br>
+
+        <section class="mySkills3" data-aos="slide-up" data-aos-duration="4000" data-aos-once="true">         
+            <img src="img/html.png"  alt="html" >
+            <img src="img/css.png"  alt="css" >
+            <img src="img/javscript.png"  alt="javascript" >
+        </section>
+
+
+    </section>
+
+    <section id="projects" class="sideSpace">
+        <h2>RECENT PROJECTS</h2>
+        <span class="divider"></span>
+
+        
+            <div class ="workDiv" data-aos="slide-up" data-aos-duration="4000" data-aos-once="true">
+                <div class="workImage">
+                    <img src="img/desktopApp.jpg"  height="auto" width="100%" alt="Project Image" >
+                    <!-- <p>My image goes here</p> -->
+                </div>
+
+                <div class="workTitle" >
+                    <h3>THE DESKTOP COMPUTER BASED TEST APP FOR SECONDARY STUDENTS</h3>
+                    <p>Automating secondary school students’ exams<br>
+                        <button onclick="window.location.href='projectOne.html';" type="button" class="caseStudyBtn">View Case study</button></p>
+                    
+                </div>      
+            </div>
+
+
+            <div class ="workDiv" data-aos="slide-up" data-aos-duration="4000" data-aos-once="true">
+                <div class="workImage">
+                    <img src="img/ecommerce2.jpg" height="auto" width="100%"  alt="Project Image" >
+                    <!-- <p>My image goes here</p> -->
+                </div>
+
+                <div class="workTitle">
+                    <h3>REDESIGNING ECOMMERCE LANDING PAGE</h3>
+                    <p>Designing a Color app for your everyday use <br>
+                        
+                            <button onclick="window.location.href='projectTwo.html';" type="button" class="caseStudyBtn">View Case study</button>
+                        </p>
+                    
+                </div>   
+            </div>
+
+            <div class ="workDiv" data-aos="slide-up" data-aos-duration="4000" data-aos-once="true">
+                <div class="workImage">
+                    <img src="img/image3.jpg" height="auto" width="100%" alt="Project Image" >
+                    <!-- <p>My image goes here</p> -->
+                </div>
+
+                <div class="workTitle">
+                    <h3>SCHOOL MANAGEMENT SYSTEM APP FOR PUBLIC SCHOOLS</h3>
+                    <p>The game changer app<br>
+                        <button onclick="window.location.href='projectThree.html';" type="button" class="caseStudyBtn">View Case study</button></p>
+                    
+                </div> 
+            </div>
+
+        
+                    <!-- <a href="#" id="profile-link">Show more</a>  -->
+    </section>
+
+    <section id="contacts" >
+
+        <h2>Let's work together...</h2>
+        <p>Follow me</p>
+
+        <a href="https://www.facebook.com/adeboye.yemi"><i class="fa fa-facebook-official myIcons" style="font-size:60px;"></i></a> 
+        <a href="https://www.twitter.com/realAdexmedia?s=08"><i class="fa fa-twitter myIcons" style="font-size:60px;"></i></a>
+        <a href="mailto:y.adeboye@gmail.com?subject=subject&cc=cc@example.com"><img src="img/gmail.png" alt="Gmail" width="60px" height="auto" class="myIcons"></a>
+ 
+    </section>
+
+    <footer><p> Copyright 2021, AdexMedia</p></footer>
+
+        <script src="main.js"></script> 
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>  
+</body>
+</html>
