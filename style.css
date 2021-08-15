@@ -342,6 +342,7 @@ section h2{
   #singleProj{
     height: 70vh;
     width: 100%;
+    background-color: #000000;
     /* margin-bottom: 20px; */
     /* background-color:rgb(228, 228, 228);
     background-image: url(img/projOne.jpg);
