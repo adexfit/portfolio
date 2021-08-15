@@ -33,7 +33,7 @@ body[data-aos-duration='4000'] [data-aos],
 #myHeader{
     /* background-image: linear-gradient(180deg, #003261 , #014A8F); */
     display: flex;
-    background-image: url(img/headerImage2.png);
+    background-image: url(img/newheaderimage.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
